@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<!--   <div>Mortgage Calculator</div> -->
+    <div class="calculator">
+        <div class="inputs">
+            Loan Amount: <input type="number" id="loanAmount"><br>
+            Interest Rate: <input type="number" id="interestRate"> %<br>
+            Loan Term (Years): <input type="number" id="loanTerm"><br>
+
+            <div class="advancedInputs">
+                Property Taxes: <input type="number" id="propertyTaxes"><br>
+            </div>
+
+            <button onclick="calculateMortgage()">Calculate</button>
+        </div>
+        
+        <div class="results">
+            Monthly Payment: <span id="monthlyPayment"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
