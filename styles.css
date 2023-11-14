@@ -9,15 +9,6 @@ body {
     height: 100vh;
 }
 
-/* Content container */
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
 /* Header styling */
 header {
     text-align: center;
@@ -32,15 +23,42 @@ header h1 {
     font-size: 36px;
 }
 
+/* Content container */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/* Slide-in animation */
+
+.slide-in {
+    animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .calculator {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 100%;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 30px;
+/*   animation: slide 2s; */
 }
 
 .inputs, .results {
