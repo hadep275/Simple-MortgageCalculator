@@ -10,7 +10,7 @@ body {
 }
 
 /* Content container */
-.content {
+content {
     display: flex;
     justify-content: center;
     align-items: center;
