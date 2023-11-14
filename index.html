@@ -2,13 +2,16 @@
 <head>
     <title>Mortgage Calculator</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="content">
+  
+  <div class="content">
 <header>
         <h1>Mortgage Calculator</h1>
     </header>
-    <div class="calculator">
+    <div class="calculator slide-in"">
         <div class="inputs">
             Loan Amount: <input type="number" id="loanAmount"><br>
             Interest Rate: <input type="number" id="interestRate"> %<br>
@@ -25,8 +28,6 @@
             Monthly Payment: <span id="monthlyPayment"></span>
         </div>
     </div>
-    </div>
-
-    <script src="script.js"></script>
+</div>
 </body>
 </html>
