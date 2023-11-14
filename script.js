@@ -16,3 +16,17 @@ function calculateMortgage() {
     // Display the result
     document.getElementById('monthlyPayment').innerHTML = '$' + monthlyPayment.toFixed(2);
 }
+
+$(document).ready(function() {
+    var calculator = $(".calculator");
+
+    $(window).on("scroll", function() {
+        var calculatorTop = calculator.offset().top;
+        var windowHeight = $(window).height();
+        var scrollTop = $(window).scrollTop();
+
+        if (calculatorTop < (scrollTop + windowHeight)) {
+            calculator.addClass("slide-in");
+        }
+    });
+});
