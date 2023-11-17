@@ -14,9 +14,7 @@ This project is a mortgage calculator web application designed to help users est
 
 Check out the live demo of the [Mortgage Calculator](https://hadep275.github.io/Simple-MortgageCalculator/)
 
-![screencapture-hadep275-github-io-Simple-MortgageCalculator-2023-11-17-15_01_13](https://github.com/hadep275/Simple-MortgageCalculator/assets/65734173/66e0130b-4cdb-4d63-bc16-c32f96983477)
-
-
+![screencapture-hadep275-github-io-Simple-MortgageCalculator-2023-11-17-15_19_06](https://github.com/hadep275/Simple-MortgageCalculator/assets/65734173/7e6a96db-f51b-4928-9f00-0e368fff09e8)
 
 ## Getting Started
 
